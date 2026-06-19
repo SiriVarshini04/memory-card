@@ -1,16 +1,45 @@
-# React + Vite
+# Pokémon Memory Card Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A memory card game built with React and PokéAPI — click each Pokémon only once per round without repeating. Features live score tracking, a best score counter, and confetti when you beat your high score.
 
-Currently, two official plugins are available:
+## How to Play
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Click any Pokémon card to start
+- Each card can only be clicked **once per round**
+- Cards shuffle after every click to test your memory
+- Click a card you've already clicked and your score resets
+- Try to click all 12 cards without repeating to get a perfect score!
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 12 random Pokémon fetched from PokéAPI on every page load
+- Live score and best score tracker
+- Cards shuffle after every click
+- Confetti burst when you beat your best score
+- Pokédex-themed UI with animations
+- Responsive layout (4 columns on desktop, 2 on mobile)
 
-## Expanding the ESLint configuration
+## Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (useState, useEffect)
+- Vite
+- PokéAPI
+- CSS Grid
+
+## Live Demo
+
+[Play the game here](#) ← replace with your Netlify URL
+
+## Getting Started
+
+```bash
+git clone https://github.com/SiriVarshini04/memory-card.git
+cd memory-card
+npm install
+npm run dev
+```
+
+## Acknowledgements
+
+- [PokéAPI](https://pokeapi.co/) for the Pokémon data
+- [The Odin Project](https://www.theodinproject.com/) for the project brief
