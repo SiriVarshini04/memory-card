@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import GameBoard from './components/GameBoard';
+import GameBoard from './components/Gameboard';
 
 function shuffle(array) {
   const shuffled = [...array];
