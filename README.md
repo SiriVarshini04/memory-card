@@ -28,7 +28,7 @@ A memory card game built with React and PokéAPI — click each Pokémon only on
 
 ## Live Demo
 
-[Play the game here](#) ← replace with your Netlify URL
+https://memory-game-odin1.netlify.app/
 
 ## Getting Started
 
